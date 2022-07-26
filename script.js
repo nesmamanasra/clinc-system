@@ -8,7 +8,6 @@ class Appointment {
         this.date = date; 
         this.time = time;  
     } 
-     
     #isValidId(num){ 
         number = parseInt(num);
         if(!(typeof number == 'number')){ 
@@ -62,7 +61,6 @@ class Patinet{
            throw new Error('you must enter string'); 
             } 
         } 
- 
         #isvalidGender(gender){ 
             if(!(gender == 'mael'  || gender == 'femael')  ){ 
                 throw new Error('you must enter mael or femael '); 
@@ -150,7 +148,6 @@ function addPatinett(){
  
 } 
  
- 
 function selectPatine(id){ 
 for(let i=0;i<patinetList.length;i++){ 
     if(patinetList[i].idPatinet===id) 
@@ -159,8 +156,6 @@ for(let i=0;i<patinetList.length;i++){
     } 
 } 
 } 
- 
-
 function addappointment(){ 
     let idAppointemtn = prompt(' enter id Appointemtn '); 
     let date = prompt('enter date dddd-mm-dd  '); 
@@ -169,8 +164,6 @@ function addappointment(){
     appointmentList.push(pt); 
  
 } 
- 
- 
 function selectApotment(id){ 
 for(let i=0;i<appointmentList.length;i++){
 
@@ -181,8 +174,6 @@ if(appointmentList[i].idAppointemtn===id)
  
 } 
 } 
- 
-
 function Trament(){ 
        console.table(patinetList); 
        let PatinetId=prompt('Choose Pationt id from table'); 
@@ -219,13 +210,10 @@ function ListP(){
 } 
  
 function ListA(){ 
-     
-          console.log(appointmentList); 
-        
-      } 
+          console.log(appointmentList)
+        } 
 function Exit(){
   process.exit();
-
 }
     
 const prompt = require("prompt-sync")({sigint:true}); 
