@@ -17,17 +17,17 @@ appointment, Reems wants to enter patient id, date and time. And for the treatme
 wants to select patient, appointment id (in case there was one), and teeth numbers, and
 treatment for each tooth.
 Develop a JavaScript Console App to achieve the following and consider:
-● Apply OOP
-● Read user inputs from console (Hint: use NodeJS ReadLine or Promots)
-● Teeth are numbered as the below image
-● All fields are required to be entered by user, except explicitly mentiond.
-● When first run the program expose the following options for the user:
-○ Add appointment
-○ Add patient
-○ Add treatment
-○ List patients
-○ List appointments
-● When user clicks one of the (add) options, prompt the user to enter all fields
+- Apply OOP
+- Read user inputs from console (Hint: use NodeJS ReadLine or Promots)
+- Teeth are numbered as the below image
+- All fields are required to be entered by user, except explicitly mentiond.
+- When first run the program expose the following options for the user:
+-- Add appointment
+-- Add patient
+-- Add treatment
+-- List patients
+-- List appointments
+- When user clicks one of the (add) options, prompt the user to enter all fields
 taking in consideration the validation (data type and required fields)
-● When user clicks one of the (list) options, just display the targeted list.
-● Use teeth numbering system as below image, meaning user cannot enter
+- When user clicks one of the (list) options, just display the targeted list.
+- Use teeth numbering system as below image, meaning user cannot enter
